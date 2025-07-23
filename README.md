@@ -1,6 +1,6 @@
-# GA7-220501096-AA5-EV01: Diseño y desarrollo de servicios web - Caso
+# 📚 GA7-220501096-AA5-EV01: Diseño y desarrollo de servicios web - Caso
 
-## Descripción
+## 📝 Descripción
 
 Este proyecto corresponde a la evidencia solicitada en el componente formativo **"Construcción de API"**. El objetivo es diseñar y codificar un servicio web que permita el registro de usuarios y el inicio de sesión, cumpliendo con los siguientes requisitos:
 
@@ -10,7 +10,7 @@ Este proyecto corresponde a la evidencia solicitada en el componente formativo *
 - El código contiene comentarios explicativos.
 - El proyecto utiliza herramientas de versionamiento (Git).
 
-## Estructura del Proyecto
+## 🗂️ Estructura del Proyecto
 
 El proyecto está desarrollado en Laravel e incluye:
 
@@ -19,7 +19,24 @@ El proyecto está desarrollado en Laravel e incluye:
 - **Mensajes claros:** Respuestas diferenciadas para autenticación exitosa o fallida.
 - **Comentarios:** El código fuente contiene comentarios para facilitar su comprensión.
 
+## 🛠️ Tecnologías Utilizadas
 
+- **PHP 8.x**
+- **Laravel 10.x**
+- **Jetstream** (con Livewire)
+- **MySQL** (u otro motor compatible)
+- **Node.js** y **NPM**
+- **Tailwind CSS**
+- **Laragon** (entorno de desarrollo local)
+
+## ⚙️ Requisitos Previos
+
+Antes de iniciar, asegúrate de tener instalado en tu equipo:
+
+- [Laragon](https://laragon.org/download/) (recomendado para Windows, incluye Apache, MySQL, PHP y más)
+- Composer
+- Node.js y NPM
+- Un navegador web moderno
 
 ## 🚀 Creación del Proyecto desde Cero
 
