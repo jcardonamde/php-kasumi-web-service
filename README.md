@@ -38,6 +38,8 @@ Antes de iniciar, asegúrate de tener instalado en tu equipo:
 - Node.js y NPM
 - Un navegador web moderno
 
+<br>
+
 ## 🚀 Creación del Proyecto desde Cero
 
 Si quieres crear este proyecto desde el inicio, sigue estos pasos:
@@ -70,7 +72,7 @@ npm run dev
 php artisan migrate
 ```
 
-
+<br>
 
 ## 🔧 Instalación (Proyecto Existente) y Ejecución
 
@@ -94,6 +96,7 @@ php artisan migrate
    ```bash
    npm run dev
    ```
+<br>
 
 ## Pruebas del Servicio
 
@@ -113,3 +116,7 @@ php artisan migrate
 
 :computer: Programa Tecnólogo en Análisis y Desarrollo de Software
 Ficha Técnica 2977435
+
+![Logo SENA](https://docs.google.com/drawings/d/e/2PACX-1vRHtXZUAI_yYltgXtZnIChIn1CDQyMCtZJLQ8R-5TiVO_IjaDVPsQnYlPEotP63Jz_I06loshw4yA1X/pub?w=50&h=50)
+
+---
