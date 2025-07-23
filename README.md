@@ -19,9 +19,50 @@ El proyecto está desarrollado en Laravel e incluye:
 - **Mensajes claros:** Respuestas diferenciadas para autenticación exitosa o fallida.
 - **Comentarios:** El código fuente contiene comentarios para facilitar su comprensión.
 
-## Instalación y Ejecución
 
-1. Clona el repositorio o descarga el archivo ZIP/RAR.
+
+## 🚀 Creación del Proyecto desde Cero
+
+Si quieres crear este proyecto desde el inicio, sigue estos pasos:
+
+### 1. **Crear el proyecto con Laragon desde la terminal**
+```bash
+composer create-project laravel/laravel tienda-sena
+cd tienda-sena
+```
+
+### 2. **Instalar paquete Jetstream**
+```bash
+composer require laravel/jetstream
+
+```
+
+### 3. **Instalar Jetstream con Livewire**
+```bash
+php artisan jetstream:install livewire
+```
+
+### 4. **Instalar dependencias y construir las dependencias NPM**
+```bash
+npm install
+npm run dev
+```
+
+### 5. **Ejecutar la migración de la base de Datos**
+```bash
+php artisan migrate
+```
+
+
+
+## 🔧 Instalación (Proyecto Existente) y Ejecución
+
+1. **Clona el repositorio**
+   ```bash
+   git clone https://github.com/jcardonamde/php-kasumi-web-service.git
+   cd tienda-sena
+   ```
+
 2. Instala las dependencias de PHP y JavaScript:
    ```bash
    composer install
@@ -39,14 +80,19 @@ El proyecto está desarrollado en Laravel e incluye:
 
 ## Pruebas del Servicio
 
-- **Registro:** Accede a `/register` para crear un nuevo usuario.
-- **Inicio de sesión:** Accede a `/login` para autenticarte.
+- **Registro:** Accede a `/register` para crear un nuevo usuario. Ejemplo en el navegador usar: http://localhost/tienda-sena/public/register
+- **Inicio de sesión:** Accede a `/login` para autenticarte. Ejemplo en el navegador usa: http://localhost/tienda-sena/public/login
+- **Recuperar contraseña:** Accede a `/forgot-password` para recuperar el acceso al sistema mediante un enlace de restablecimiento de contraseña. Ejemplo en el navegador usa: http://localhost/tienda-sena/public/forgot-password
 - El sistema mostrará mensajes claros según el resultado de la autenticación.
 
-## Versionamiento
+## 👨‍💻 Autor
 
-Este proyecto utiliza Git para el control de versiones. Se recomienda revisar el historial de commits para ver la evolución del desarrollo.
+**Desarrollado por:**
 
-## Entrega
+👥 Daniel Alejandro Vargas Uzuriaga <br>
+👥 Daniela López Chica <br>
+👥 Jonathan Cardona Calderon <br>
+👥 Luz Eleidis Baldovino González
 
-- Puedes entregar este proyecto como archivo ZIP, RAR o mediante un enlace al repositorio.
+:computer: Programa Tecnólogo en Análisis y Desarrollo de Software
+Ficha Técnica 2977435
