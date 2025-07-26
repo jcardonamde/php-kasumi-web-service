@@ -10,6 +10,12 @@ Este proyecto corresponde a la evidencia solicitada en el componente formativo *
 - El código contiene comentarios explicativos.
 - El proyecto utiliza herramientas de versionamiento (Git).
 
+🎥 Demostración
+
+Puedes ver una demostración del funcionamiento del proyecto en el siguiente enlace:
+👉 [Visita el proyecto Kasumi](https://www.youtube.com/watch?v=72OaYShzdgw)
+
+
 ## 🗂️ Estructura del Proyecto
 
 El proyecto está desarrollado en Laravel e incluye:
